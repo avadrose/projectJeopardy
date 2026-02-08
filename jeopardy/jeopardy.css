@@ -5,3 +5,80 @@
   #8d2ab5
   #74119c
 */
+
+body {
+  font-family: 'Copse', serif;
+  background: linear-gradient(rgb(31, 1, 31), rgb(17, 2, 62), rgb(41, 1, 51));
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#jeopardy {
+  margin: 40px auto; 
+  border-collapse: separate;
+  width: 95%;
+  max-width: 1000px;
+  border-spacing: 10px;
+}
+
+#jeopardy th {
+  background: #450f90;
+  color: #ffffff;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 15px #ee3fe5;
+}
+
+
+#jeopardy td {
+  background: #12047a;
+  color: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 0 10px #52f739;
+  transition: all 0.2s ease-in-out;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+#jeopardy td:hover {
+  background: #1811d7;
+  box-shadow: 0 0 20px #ff00ff;
+  transform: scale(1.05);
+}
+
+.revealed {
+  background: #5ef428 !important;
+  box-shadow: 0 0 20px #f43dd5 !important;
+  color: #00ffcc;
+}
+
+#start {
+  background: #ff00ff;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 20px #2bea2b;
+  transition: 0.2s ease;
+}
+
+#start:hover {
+  background: #3ffb31;
+  box-shadow: 0 0 30px #ff00ff;
+  transform: scale(1.1);
+}
+

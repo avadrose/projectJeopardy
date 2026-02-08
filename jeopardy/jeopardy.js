@@ -143,6 +143,7 @@ function handleClick(evt) {
     if (clue.showing === null) {
         $td.text(clue.question);
         clue.showing = "question";
+        $td.addClass("revealed");
     } else if (clue.showing === "question") {
         $td.text(clue.answer);
         clue.showing = "answer";
